@@ -4,7 +4,7 @@ namespace ygorkauawj\Desafio\Models;
 use ygorkauawj\Desafio\Exceptions\OutOfStockException;
 use ygorkauawj\Desafio\Exceptions\NegativeValueException;
 
-class StandartStore extends Store implements Sell
+class StandardStore extends Store implements Sell
 {
     private int $stock;
     private int $totalProfit;
